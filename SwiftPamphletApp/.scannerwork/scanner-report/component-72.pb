@@ -1,0 +1,1 @@
+H 2swiftX!hrRSSReader/RSSModel.swift

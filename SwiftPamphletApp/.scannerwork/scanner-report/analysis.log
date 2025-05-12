@@ -1,0 +1,53 @@
+SonarQube plugins:
+  - C++ (Community) 2.0.6.2925 (cxx)
+  - Python Code Quality and Security 3.4.1.8066 (python)
+  - CSS Code Quality and Security 1.4.2.2002 (cssfamily)
+  - Google Authentication for SonarQube 1.6.1 (authgoogleoauth)
+  - Go Code Quality and Security 1.8.3.2219 (go)
+  - JaCoCo 1.1.1.1157 (jacoco)
+  - Kotlin Code Quality and Security 1.8.3.2219 (kotlin)
+  - Swift (Backelite) 0.4.6 (backelitesonarswiftplugin)
+  - JavaScript/TypeScript Code Quality and Security 7.4.4.15624 (javascript)
+  - Ruby Code Quality and Security 1.8.3.2219 (ruby)
+  - Scala Code Quality and Security 1.8.3.2219 (sonarscala)
+  - C# Code Quality and Security 8.22.0.31243 (csharp)
+  - Java Code Quality and Security 6.15.1.26025 (java)
+  - HTML Code Quality and Security 3.4.0.2754 (web)
+  - Flex Code Quality and Security 2.6.1.2564 (flex)
+  - XML Code Quality and Security 2.2.0.2973 (xml)
+  - PHP Code Quality and Security 3.17.0.7439 (php)
+  - VB.NET Code Quality and Security 8.22.0.31243 (vbnet)
+Global server settings:
+  - sonar.auth.googleoauth.clientId.secured=******
+  - sonar.auth.googleoauth.clientSecret.secured=******
+  - sonar.auth.googleoauth.enabled=true
+  - sonar.auth.googleoauth.limitOauthDomain=nextdrive.io
+  - sonar.core.id=7C87FE6F-AXybi8MuEfU5l85ozhE_
+  - sonar.core.serverBaseURL=https://sonarqube-qa.nextdrive.io/
+  - sonar.core.startTime=2022-06-09T00:12:21+0000
+  - sonar.forceAuthentication=true
+  - sonar.plugins.risk.consent=ACCEPTED
+Project server settings:
+  - sonar.coverage.exclusions=**/*.h,**/*.html,**/*.md,**/*.htm,**/*.css,**/*.xml,**/*.txt
+  - sonar.inclusions=**/*.swift
+  - sonar.scm.disabled=true
+  - sonar.swift.coverage.reportPattern=sonar-reports/coverage.xml
+  - sonar.swift.swiftlint.report=sonar-reports/swiftlint.txt
+Project scanner properties:
+  - sonar.host.url=https://sonarqube-qa.nextdrive.io
+  - sonar.language=swift
+  - sonar.login=******
+  - sonar.projectBaseDir=/Users/automan/source/SwiftPamphletApp/SwiftPamphletApp
+  - sonar.projectDescription=APP-TEST
+  - sonar.projectKey=EG-APP-TEST
+  - sonar.projectName=EG-APP-TEST
+  - sonar.projectVersion=0.1
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=4.7.0.2747
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=/Users/automan/source/SwiftPamphletApp/SwiftPamphletApp
+  - sonar.swift.appConfiguration=Debug
+  - sonar.swift.appScheme=SwiftPamphletApp
+  - sonar.swift.swiftlint.report=/Users/automan/source/SwiftPamphletApp/sonar-reports/swiftlint.txt
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/automan/source/SwiftPamphletApp/SwiftPamphletApp/.scannerwork

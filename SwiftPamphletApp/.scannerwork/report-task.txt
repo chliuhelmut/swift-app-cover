@@ -1,0 +1,6 @@
+projectKey=EG-APP-TEST
+serverUrl=https://sonarqube-qa.nextdrive.io
+serverVersion=8.9.4.50575
+dashboardUrl=https://sonarqube-qa.nextdrive.io/dashboard?id=EG-APP-TEST
+ceTaskId=AYFxDhini5hWgknBY352
+ceTaskUrl=https://sonarqube-qa.nextdrive.io/api/ce/task?id=AYFxDhini5hWgknBY352

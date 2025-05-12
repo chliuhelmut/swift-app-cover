@@ -1,0 +1,1 @@
+$ 2swiftXMhr*Resource/Play/Guide/PlayArchitecture.swift
